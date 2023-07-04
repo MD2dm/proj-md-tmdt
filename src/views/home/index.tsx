@@ -4,13 +4,13 @@ import TitleHead from "@layoutStore/title-head";
 
 
 
+
 const PageHome = () => {
     return (
         <>
             <TitleHead></TitleHead>
             <NavBar>{<GroupInputHome></GroupInputHome>}</NavBar>
-            this is home
-
+            
         </>
     );
 };

@@ -13,7 +13,7 @@ const InPutConTact = () => {
                 <Input type='phone' id='phone' placeholder='Your Phone'></Input>
             </div>
             <div className='mt-10'>
-                <TextareaContact></TextareaContact>
+                <TextareaContact title="Your message"></TextareaContact>
             </div>
             <div className='absolute right-12 bottom-8'>
                 <ButtonAll nameButton='Send Massage' background='bg-[#DB4444]' textColor='text-white'></ButtonAll>

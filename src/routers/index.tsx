@@ -4,6 +4,7 @@ import PageContact from '@views/contact';
 import PageHome from '@views/home';
 import PageLogin from '@views/login';
 import PageSigUp from '@views/sigup';
+import PageUserSell from '@views/usersell';
 import { Route, Routes } from 'react-router-dom';
 
 
@@ -16,6 +17,7 @@ const RouterPage = () => {
                 <Route path="/about" element={<PageAbout></PageAbout>}></Route>
                 <Route path="/signup" element={<PageSigUp></PageSigUp>}></Route>
                 <Route path="/login" element={<PageLogin></PageLogin>}></Route>
+                <Route path="/usersell" element={<PageUserSell></PageUserSell>}></Route>
                 <Route path="*" element={<Page404></Page404>}></Route>
             </Routes>
         </div>

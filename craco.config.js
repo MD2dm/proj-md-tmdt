@@ -15,7 +15,7 @@ module.exports = {
       '@views': path.resolve(__dirname, 'src/views'),
       '@i18n': path.resolve(__dirname,'src/i18n'),
       '@locales': path.resolve(__dirname,'src/locales'),
-      '@interface': path.resolve(__dirname,'src/interface')
+      '@interface': path.resolve(__dirname,'src/interface'),
     }
   },
   jest: {

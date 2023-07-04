@@ -21,9 +21,7 @@
       "@interface": ["interface"], 
       "@interface/*": ["interface/*"],
       "@i18n": ["i18n"], 
-      "@i18n/*": ["i18n/*"],
-      "@locales": ["locales"], 
-      "@locales/*": ["locales/*"]
+      "@i18n/*": ["i18n/*"]
     }
   }
 }
