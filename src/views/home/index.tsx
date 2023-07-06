@@ -10,7 +10,7 @@ const PageHome = () => {
         <>
             <TitleHead></TitleHead>
             <NavBar>{<GroupInputHome></GroupInputHome>}</NavBar>
-            
+
         </>
     );
 };
