@@ -20,11 +20,16 @@ const FormSigup = () => {
             </div>
             <div className='flex flex-col gap-y-5'>
                 <ButtonAll size='w-[350px]' textColor='text-white' nameButton={t('Create Account')} background='bg-[#DB4444]'></ButtonAll>
-                <ButtonAll size='w-[350px]' logo={<FcGoogle></FcGoogle>} textColor='text-black' border='border border-[#9CA3AF]' nameButton={t('google')} background='bg-white'></ButtonAll>
+                <div className=''>
+                    <div className='absolute z-50 top-[71.3%] left-[70px] setIcon border rounded-full'>
+                        <FcGoogle></FcGoogle>
+                    </div>
+                    <ButtonAll size='w-[350px]' textColor='text-black' border='border border-[#9CA3AF]' nameButton={t('google')} background='bg-white'></ButtonAll>
+                </div>
             </div>
             <div className='flex gap-x-3 ml-14 mt-7 opacity-50'>
                 <p>{t('Already')}</p>
-                <NavLink to="/login" className="underline">{t("login")}</NavLink>
+                <NavLink to="/login" className="underline">{t("sigup")}</NavLink>
             </div>
         </div>
     );

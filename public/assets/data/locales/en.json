@@ -13,7 +13,20 @@
     "Create Account": "Create Account",
     "google":"Sign up with Google",
     "Already": "Already have account?",
-    "login": "Log in",
-    "inputsearch":"What are you looking for?"
+    "sigup": "Log in",
+    "inputsearch":"What are you looking for?",
+    "yourname" :"Your Name",
+    "email": "Your Email",
+    "phone": "Your Phone",
+    "message": "Your Message",
+    "sendms":"Send Message",
+    "login":"Log in to Exclusive",
+    "enterdetails":"Enter your details below",
+    "loginsigle":"Log in",
+    "forgetpassword":"Forget Password?",
+    "title404":"Your visited page not found. You may go home page.",
+    "backhome":"Back to home page",
+    "hello":"Hello",
+    "infpro":"Information Product"
 }
 
