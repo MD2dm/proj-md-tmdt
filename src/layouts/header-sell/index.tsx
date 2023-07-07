@@ -21,17 +21,17 @@ const HeaderSell = () => {
                     <img src={url} alt="" className='h-[257px]' />
                 </div>
                 <div className='flex flex-col gap-y-5 p-10'>
-                    <Input type='text' id='name' placeholder='ID Product'></Input>
-                    <Input type='text' id='name' placeholder='Name Product'></Input>
-                    <Input type='text' id='name' placeholder='Price'></Input>
-                    <Input type='text' id='name' placeholder='Categoty'></Input>
+                    <Input type='text' id='name' placeholder={t("idpro")}></Input>
+                    <Input type='text' id='name' placeholder={t("namepro")}></Input>
+                    <Input type='text' id='name' placeholder={t("price")}></Input>
+                    <Input type='text' id='name' placeholder={t("category")}></Input>
                     <InputImage></InputImage>
                     <InputImage></InputImage>
                     <InputImage></InputImage>
-                    <TextareaContact title="Description"></TextareaContact>
+                    <TextareaContact title={t("des")}></TextareaContact>
                 </div>
                 <div className='text-center mb-5'>
-                    <ButtonAll nameButton='Add Product' background='bg-[#DB4444]' textColor='text-white'></ButtonAll>
+                    <ButtonAll nameButton={t("addpro")} background='bg-[#DB4444]' textColor='text-white'></ButtonAll>
                 </div>
             </div>
         </div>

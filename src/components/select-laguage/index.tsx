@@ -10,10 +10,10 @@ const LanguageDropdown = () => {
     return (
         <>
             {i18n.language === 'vi' && <button onClick={() => changeLanguage('en')}>
-                <img src={VI} alt="" className="w-[30px]" />
+                <img src={VI} alt="" className="style laguage" />
             </button>}
             {i18n.language === 'en' && <button onClick={() => changeLanguage('vi')}>
-                <img src={EN} alt="" className="w-[30px]" />
+                <img src={EN} alt="" className="style laguage" />
 
             </button>}
         </>

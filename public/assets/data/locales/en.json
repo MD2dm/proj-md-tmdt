@@ -27,6 +27,27 @@
     "title404":"Your visited page not found. You may go home page.",
     "backhome":"Back to home page",
     "hello":"Hello",
-    "infpro":"Information Product"
+    "infpro":"Information Product",
+    "idpro":"ID Product",
+    "namepro":"Name Product",
+    "price":"Price",
+    "category":"Category",
+    "des":"Description",
+    "addpro":"Add Product",
+    "calltact":"Call To Us",
+    "infocontact":"We are available 24/7, 7 days a week.",
+    "sdt":"Phone",
+    "writetact":"Write To US",
+    "text":"Fill out our form and we will contact you within 24 hours.",
+    "tit1about":"FREE AND FAST DELIVERY",
+    "des1about":"Free delivery for all orders over $140",
+    "tit2about":"24/7 CUSTOMER SERVICE",
+    "des2about":"Friendly 24/7 customer support",
+    "tit3about":"MONEY BACK GUARANTEE",
+    "des3about":"We return money within 30 days",
+    "t1about":"Sellers active our site",
+    "t2about":"Monthly Product Sale",
+    "t3about":"Customer active in our site",
+    "t4about":"Annual gross sale in our site"
 }
 
