@@ -30,7 +30,7 @@ const LinkList: { id: number; icon: any, view: number, title: string }[] = [
     },
 ];
 const InformationStore = () => {
-    const {t} = useTranslation();
+    const { t } = useTranslation();
     return (
         <div className='flex justify-evenly mt-10'>
             {LinkList.map((item: any, index: number) => (
