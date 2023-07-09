@@ -28,8 +28,8 @@ const ListAuthor = () => {
     return (
         <div className='flex justify-around mt-24'>
             {ListAuthorUser.map((item: any, index: number) => (
-                <div>
-                    <div key={item.id}>
+                <div key={item.id}>
+                    <div>
                         <img src={item.image} alt="" />
                     </div>
                     <p className='fontAcount text-[32px] font-medium mt-5 mb-1'>{item.name}</p>

@@ -28,7 +28,7 @@ const ListHotlineAbout = () => {
     return (
         <div className='centerAll gap-x-44 mt-24'>
             {LinkList.map((item: any, index: number) => (
-                <div key={item.index}>
+                <div key={item.id}>
                     <div className='w-[80px] h-[80px] mx-auto bg-black rounded-full centerAll  mb-7'>{item.icon}</div>
                     <div className='text-center'>
                         <p className='text-[20px] font-semibold'>{t(item.title)}</p>

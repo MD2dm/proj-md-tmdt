@@ -34,7 +34,7 @@ const InformationStore = () => {
     return (
         <div className='flex justify-evenly mt-10'>
             {LinkList.map((item: any, index: number) => (
-                <div className='w-[270px] h-[250px] border mt-20' key={item.item}>
+                <div className='w-[270px] h-[250px] border mt-20' key={item.id}>
                     <div className='centerAll flex-col -translate-y-6 gap-y-2'>
                         <div className='inline-block centerAll mt-14 border rounded-full p-3 shadow-xl mb-2'>
                             {item.icon}
