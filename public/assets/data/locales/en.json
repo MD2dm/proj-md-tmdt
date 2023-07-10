@@ -76,6 +76,23 @@
     "subtotal":"Subtotal",
     "shipping":"Shipping",
     "totalend":"Total",
-    "checkout":"Procees to checkout"
+    "checkout":"Procees to checkout",
+    "checkbox":"Save this information for faster check-out next time",
+    "billingdetails":"Billing Details",
+    "firstname":"First Name",
+    "company":"Company Name",
+    "streetaddress":"Street Address",
+    "numberhome":"Apartment, floor, etc. (optional)",
+    "town/city":"Town/City",
+    "phonenumber":"Phone Number",
+    "emailaddress":"Email Address",
+    "bank1":"Bank",
+    "bank2":"Cash on delivery",
+    "placeorder":"Place Order",
+    "sold":"Sold",
+    "totalproduct":"Total Products",
+    "inventories":"Inventories",
+    "totalusersell":"Total sales",
+    "usersell":"Products on Sale"
 }
 

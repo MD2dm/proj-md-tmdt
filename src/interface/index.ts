@@ -1,7 +1,8 @@
 export interface IInputAll {
     type:string,
     id:string,
-    placeholder:string,
+    name?:string,
+    placeholder?:string,
     border?:string
 }
 export interface IButton {

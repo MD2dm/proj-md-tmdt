@@ -76,5 +76,22 @@
     "subtotal":"Tổng cộng",
     "shipping":"Giao hàng",
     "totalend":"Tổng",
-    "checkout":"Tiến hành thanh toán"
+    "checkout":"Tiến hành thanh toán",
+    "checkbox":"Lưu thông tin này",
+    "billingdetails":"Chi tiết thanh toán",
+    "firstname":"Họ tên",
+    "company":"Tên công ty",
+    "streetaddress":"Tên đường",
+    "numberhome":"Căn hộ, số tầng, số nhà",
+    "town/city":"Thị xã/Thành phố",
+    "phonenumber":"Số điện thoại",
+    "emailaddress":"Địa chỉ Email",
+    "bank1":"Chuyển khoản",
+    "bank2":"Thanh toán khi giao hàng",
+    "placeorder":"Đặt Hàng",
+    "sold":"Đã bán",
+    "totalproduct":"Tổng sản phẩm",
+    "inventories":"Hàng tồn",
+    "totalusersell":"Tổng doanh thu",
+    "usersell":"Sản phẩm đang bán"
 }

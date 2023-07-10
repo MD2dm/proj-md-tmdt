@@ -1,6 +1,7 @@
 import Page404 from '@views/404';
 import PageAbout from '@views/about';
 import PageCart from '@views/cart';
+import PageCheckOut from '@views/checkout';
 import PageContact from '@views/contact';
 import PageHome from '@views/home';
 import PageLogin from '@views/login';
@@ -20,6 +21,7 @@ const RouterPage = () => {
                 <Route path="/login" element={<PageLogin></PageLogin>}></Route>
                 <Route path="/usersell" element={<PageUserSell></PageUserSell>}></Route>
                 <Route path="/cart" element={<PageCart></PageCart>}></Route>
+                <Route path="/checkout" element={<PageCheckOut></PageCheckOut>}></Route>
                 <Route path="*" element={<Page404></Page404>}></Route>
             </Routes>
         </div>
