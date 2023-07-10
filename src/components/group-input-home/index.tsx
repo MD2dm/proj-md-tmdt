@@ -1,15 +1,30 @@
 import InputSearch from '@components/input-search';
 import UserList from '@components/user-list';
-import { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { FiHeart, FiShoppingCart, FiUser } from 'react-icons/fi';
 
-const GroupInputHome = () => {
+const GroupInputHome: React.FC = () => {
     const [on, setOn] = useState<Boolean>(false);
+    const userRef = useRef<HTMLDivElement>(null);
+
     const handleOn = () => {
-        setOn(!on)
-    }
+        setOn(!on);
+    };
+
+    useEffect(() => {
+        const handleClickOutside = (event: MouseEvent) => {
+            if (userRef.current && !userRef.current.contains(event.target as Node)) {
+                setOn(false)
+            }
+        };
+        document.addEventListener('click', handleClickOutside);
+        return () => {
+            document.removeEventListener('click', handleClickOutside);
+        };
+    }, []);
+
     return (
-        <div className='flex gap-x-5' >
+        <div className='flex gap-x-5'>
             <div className='flex'>
                 <div className='relative'>
                     <InputSearch></InputSearch>
@@ -18,12 +33,14 @@ const GroupInputHome = () => {
             <div className='centerAll gap-x-5 setIcon'>
                 <FiHeart></FiHeart>
                 <FiShoppingCart></FiShoppingCart>
-                <div className='relative'>
+                <div className='relative' ref={userRef}>
                     <FiUser onClick={handleOn}></FiUser>
-                    {on && <UserList></UserList>}
+                    <div className='bg-gradient-to-br from-gray-900 via-gray-900 to-gray-700 text-white w-[213px] absolute right-0 top-10 z-10'>
+                        {on && <UserList></UserList>}
+                    </div>
                 </div>
             </div>
-        </div >
+        </div>
     );
 };
 

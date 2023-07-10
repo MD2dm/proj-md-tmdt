@@ -46,14 +46,14 @@ const UserList = () => {
     const { t } = useTranslation();
 
     return (
-        <div className='bg-gradient-to-br from-gray-900 via-gray-900 to-gray-700 text-white w-[213px] absolute right-0 top-10 z-10'>
+        <>
             {listMenuUser.map((item: any, index: any) => (
                 <NavLink to={item.to} key={item.index} className='flex  px-4 py-5 hover:bg-blue-400 gap-x-3'>
                     <div className='setIcon'>{item.icon}</div>
                     <div className='text-[14px]'>{t(item.name)}</div>
                 </NavLink>
             ))}
-        </div>
+        </>
     );
 };
 
