@@ -63,6 +63,19 @@
     "listuser3":"My Cancellations",
     "listuser4":"My Reviews",
     "listuser5":"Logout",
-    "listuser6":"For the seller"
+    "listuser6":"For the seller",
+    "cart1title":"Product",
+    "cart2title":"Price",
+    "cart3title":"Quantity",
+    "cart4title":"Subtotal",
+    "returnshop":"Return To Shop",
+    "updatecart":"Update Cart",   
+    "coupon":"Coupon code",
+    "applycoupon":"Apply Coupon",
+    "total":"Cart Total",
+    "subtotal":"Subtotal",
+    "shipping":"Shipping",
+    "totalend":"Total",
+    "checkout":"Procees to checkout"
 }
 

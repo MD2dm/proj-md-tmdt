@@ -2,6 +2,7 @@ import InputSearch from '@components/input-search';
 import UserList from '@components/user-list';
 import React, { useEffect, useRef, useState } from 'react';
 import { FiHeart, FiShoppingCart, FiUser } from 'react-icons/fi';
+import { NavLink } from 'react-router-dom';
 
 const GroupInputHome: React.FC = () => {
     const [on, setOn] = useState<Boolean>(false);
@@ -32,7 +33,13 @@ const GroupInputHome: React.FC = () => {
             </div>
             <div className='centerAll gap-x-5 setIcon'>
                 <FiHeart></FiHeart>
-                <FiShoppingCart></FiShoppingCart>
+                <NavLink to="/cart" className={({ isActive }) =>
+                    isActive
+                        ? "p-[6px] rounded-full text-white bg-red-600 transition-all"
+                        : ""
+                }>
+                    <FiShoppingCart></FiShoppingCart>
+                </NavLink>
                 <div className='relative' ref={userRef}>
                     <FiUser onClick={handleOn}></FiUser>
                     <div className='bg-gradient-to-br from-gray-900 via-gray-900 to-gray-700 text-white w-[213px] absolute right-0 top-10 z-10'>

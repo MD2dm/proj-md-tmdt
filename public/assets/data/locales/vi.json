@@ -63,5 +63,18 @@
     "listuser3":"Hủy bỏ",
     "listuser4":"Nhận xét",
     "listuser5":"Đăng xuất",
-    "listuser6":"Dành cho người bán"
+    "listuser6":"Dành cho người bán",
+    "cart1title":"Sản phẩm",
+    "cart2title":"Giá",
+    "cart3title":"Số lượng",
+    "cart4title":"Tổng số tiền",
+    "returnshop":"Quay lại cửa hàng",
+    "updatecart":"Cập nhật giỏ hàng",
+    "coupon":"Mã giảm giá",
+    "applycoupon":"Áp dụng",
+    "total":"Tổng số hàng",
+    "subtotal":"Tổng cộng",
+    "shipping":"Giao hàng",
+    "totalend":"Tổng",
+    "checkout":"Tiến hành thanh toán"
 }

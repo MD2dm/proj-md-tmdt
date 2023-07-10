@@ -43,7 +43,7 @@ function SwiperSlider() {
             <div className="layout absolute -z-50"></div>
             <Swiper
                 autoplay={{
-                    delay: 4000,
+                    delay: 2500,
                     pauseOnMouseEnter: true,
                     disableOnInteraction: false,
                 }}
